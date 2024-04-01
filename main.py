@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
     print(
         "\x1B[4m" + "Predicting most accurate function for unknown proteins,using Hishigaki Scores...... " + "\x1B[0m")
-    outputHSFunction = network1.function_predict_multiple_function_Hishigaki("GO_annotations_multiple_functions.tsv"")
+    outputHSFunction = network1.function_predict_multiple_function_Hishigaki("GO_annotations_multiple_functions.tsv")
     print(outputHSFunction)
     print('\n')
     print("End of program...")
